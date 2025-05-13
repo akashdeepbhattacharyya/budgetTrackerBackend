@@ -28,7 +28,6 @@ SECRET_KEY = 'django-insecure-=e+t22&)i=3pfg7x5g!=og%1#jz9@z50xancqd1$i@)4u(6o*v
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 
-ALLOWED_HOSTS = []
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
@@ -178,7 +177,7 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOW_ALL_ORIGINS = True
-ALLOWED_HOSTS = ['budgetTracker.onrender.com']
+ALLOWED_HOSTS = ['budgettrackerbackend-dlh9.onrender.com']
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
