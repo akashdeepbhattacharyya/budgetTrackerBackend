@@ -177,7 +177,7 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOW_ALL_ORIGINS = True
-ALLOWED_HOSTS = ['budgettrackerbackend-dlh9.onrender.com']
+ALLOWED_HOSTS = ['budgettrackerbackend-dlh9.onrender.com','127.0.0.1','localhost:4200']
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
